@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 100%;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -17,6 +13,7 @@
 [class *="col-"] {
   flex: 0 0 auto;
 }
+
 /* offset */
 .col-1-offset {
   margin-left: calc((100% / 12) * 1);
