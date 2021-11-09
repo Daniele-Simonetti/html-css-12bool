@@ -14,8 +14,11 @@ div.row > div {
   justify-content: center;
   padding: 1em 1.5em;
 }
-
 div.row > div > div {
+  width: 100%;
+}
+
+div.row > div > div > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,10 +77,10 @@ div.row.wd-50.right.bottom {
 body div.container:nth-child(6) {
   margin-bottom: 0;
 }
-body div.container:nth-child(6) div.row > div {
+body div.container:nth-child(6) div.row > div > div {
   justify-content: space-around;
 }
 /* seventh container */
-body div.container:nth-child(7) div.row > div {
+body div.container:nth-child(7) div.row > div > div {
   justify-content: space-between;
 }
